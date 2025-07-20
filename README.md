@@ -42,20 +42,3 @@ Classes:
 
 Dataset size: ~2,500 images  
 Not included in this repo due to size. You can generate your own using the included scripts.
-
-## ▶️ How to Run This Project
-
-```bash
-# 1. Clone this repo
-git clone https://github.com/hailer-MIT/sign-language-detector.git
-cd sign-language-detector
-
-# 2. Create virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate   # or venv\Scripts\activate on Windows
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Run real-time detection (after training)
-python real_time_detection.py
